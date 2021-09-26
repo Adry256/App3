@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="App3: Tú nombre completo." HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Nombre"></Label>
+        <Entry Text="{Binding Nombre} "></Entry>
+
+        <Label Text="Apellido1"></Label>
+        <Entry Text="{Binding Apellido1}"></Entry>
+
+        <Label Text="Apellido2"></Label>
+        <Entry Text="{Binding Apellido2}"></Entry>
+
+        <Label Text="Nombre Completo:"></Label>
+        <Label Text="{Binding NombreCompleto}"></Label>
+    </StackLayout>
+
+</ContentPage>
